@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+.venv311/
+venv/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Local configs/cache
+.mplconfig/
+.cache/
+
+# Datasets and large raw data
+dataset/
+kitti-dataset/
+kitti-dataset.zip
+*.zip
+
+# Weights/checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Generated outputs (keep only selected examples)
+outputs/*
+!outputs/.gitkeep
+!outputs/training_000000_geo_3dbox.png
+!outputs/training_000000_geo_depth_map.png
+!outputs/training_000000_geo_yolo_2d.png
+!outputs/training_000000_learned_3dbox.png
+!outputs/training_000000_learned_depth_map.png
+!outputs/training_000000_learned_yolo_2d.png
+
+# Optional model file if present locally
+yolov8n.pt

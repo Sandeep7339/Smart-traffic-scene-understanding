@@ -1,0 +1,6 @@
+{
+  "method": "sgbm",
+  "num_disparities": 128,
+  "block_size": 7,
+  "max_depth_m": 80.0
+}
