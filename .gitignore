@@ -1,0 +1,46 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Large model weights and checkpoints
+*.pt
+*.pth
+*.onnx
+
+# Dataset and generated artifacts
+dataset/
+runs/
+
+# Project outputs
+outputs/
+# mask_3d_segmentation/outputs/
+# rgbde_yolo_fusion/outputs/
+# stereo_object_detection/outputs/
+
+# Local experiment/config files
+*.cache
+
+.mplconfig
+.venv311
+.codex
+
+
+
