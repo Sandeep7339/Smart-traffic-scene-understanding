@@ -1,0 +1,19 @@
+Baseline vs DL 3D Fusion Metrics
+===============================
+Split: training
+Requested samples: 10
+Processed samples: 10
+Matching IoU threshold: 0.30
+DL checkpoint mode: legacy_stereo_fusion
+
+Baseline (geometry fusion)
+  matches: 20
+  Depth MAE: 1.242 m
+  Center L2 mean: 1.579 m
+  Mean IoU2D: 0.866
+
+DL fusion
+  matches: 20
+  Depth MAE: 1.185 m
+  Center L2 mean: 1.266 m
+  Mean IoU2D: 0.866

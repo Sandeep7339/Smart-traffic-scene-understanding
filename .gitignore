@@ -29,11 +29,7 @@ Thumbs.db
 dataset/
 runs/
 
-# Project outputs
-outputs/
-# mask_3d_segmentation/outputs/
-# rgbde_yolo_fusion/outputs/
-# stereo_object_detection/outputs/
+
 
 # Local experiment/config files
 *.cache

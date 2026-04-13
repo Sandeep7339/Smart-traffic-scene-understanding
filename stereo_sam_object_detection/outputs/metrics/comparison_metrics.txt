@@ -1,0 +1,23 @@
+Stereo + YOLO + SAM Metrics
+===========================
+Split: training
+Attempted samples: 10
+Matching IoU threshold: 0.30
+
+Baseline (YOLO bbox + Stereo)
+  matches: 34
+  MAE: 1.6018 m
+  RMSE: 2.6220 m
+  Mean depth variance: 2.762821
+  Projected IoU: 0.6734
+  Region IoU: 0.7874
+
+SAM Fusion (YOLO prompt -> SAM mask + Stereo)
+  matches: 34
+  MAE: 1.9792 m
+  RMSE: 3.6564 m
+  Mean depth variance: 2.630880
+  Projected IoU: 0.7092
+  Region IoU: 0.7688
+
+RMSE Improvement (%): -39.45

@@ -1,0 +1,20 @@
+{
+  "split": "training",
+  "requested_samples": 10,
+  "processed_samples": 10,
+  "match_iou": 0.3,
+  "baseline": {
+    "count": 20,
+    "depth_mae": 1.2419852018356323,
+    "center_l2_mean": 1.5785945653915405,
+    "iou_mean": 0.8658208847045898
+  },
+  "dl_fusion": {
+    "count": 20,
+    "depth_mae": 1.184649109840393,
+    "center_l2_mean": 1.266039490699768,
+    "iou_mean": 0.8658208847045898
+  },
+  "dl_enabled": true,
+  "dl_model_type": "legacy_stereo_fusion"
+}

@@ -1,0 +1,22 @@
+{
+  "attempted_samples": 10,
+  "split": "training",
+  "match_iou": 0.3,
+  "baseline": {
+    "count": 34.0,
+    "mae": 1.601753830909729,
+    "rmse": 2.622016668319702,
+    "mean_var": 2.7628209590911865,
+    "proj_iou": 0.6733569502830505,
+    "region_iou": 0.7873642444610596
+  },
+  "sam_fusion": {
+    "count": 34.0,
+    "mae": 1.9791910648345947,
+    "rmse": 3.6564249992370605,
+    "mean_var": 2.630880355834961,
+    "proj_iou": 0.7092225551605225,
+    "region_iou": 0.7687647938728333
+  },
+  "rmse_improvement_percent": -39.450867853569
+}
