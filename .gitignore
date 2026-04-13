@@ -30,7 +30,6 @@ dataset/
 runs/
 
 
-
 # Local experiment/config files
 *.cache
 
@@ -38,5 +37,8 @@ runs/
 .venv311
 .codex
 
+
+# no output files
+outputs/
 
 
